@@ -3,15 +3,17 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Coronavirus Tracker Application</title>
+    <title>CVirus Tracker Application</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
 <div class="container">
-<h1>Coronavirus Tracker Application</h1>
+<h1>CVirus Tracker Application</h1>
 <p>Diese Anwendung listet die aktuelle Anzahl der weltweit gemeldeten Personen auf</p>
+<p>provided information can be incorrect, created and provided just for application test.</p>
+<p>Die bereitgestellten Informationen dienen zu Testzwecken der Anwendung und können falsch oder unvollständig sein.</p>
 
 <div class="jumbotron">
     <h1 class="display-4" th:text="${totalReportedCases}"></h1>
